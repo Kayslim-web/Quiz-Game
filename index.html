@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <button id="start-button" class="green-button">Enter</button>
+        <div id="quiz-content" class="hidden">
+            <h2 id="welcome-message"></h2>
+            <h3>Choose a category:</h3>
+            <div id="categories">
+                <div class="category" id="us-states-capitals">US States Capitals</div>
+                <div class="category" id="country-capitals">Country Capitals</div>
+            </div>
+            <div id="question-container" class="hidden">
+                <h3 id="question"></h3>
+                <input type="text" id="answer-input" placeholder="Type your answer here">
+                <button id="submit-answer">Submit</button>
+                <p id="feedback"></p>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>

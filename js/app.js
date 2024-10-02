@@ -3,11 +3,24 @@ document.getElementById('start-button').addEventListener('click', startGame);
 const questions = {
     "US States Capitals": {
         question: "What is the capital of New York?",
-        answer: "Albany"
+        answer: "Albany",
+        question: "What is the capital of New Jersey?",
+        answer: "Trenton",
+        question: "What is the capital of ohio",
+        answer: "Columbus",
+        question: "What is the capital of Maryland?",
+        answer: "Annapolis"
+
     },
     "Country Capitals": {
         question: "What is the capital of France?",
-        answer: "Paris"
+        answer: "Paris", 
+        question: "What is the capital of Ghana?",
+        answer: "Accra",
+        question: "What is the capital of Germany?",
+        answer: "Berlin",
+        question: "What is the capital of Brazil?",
+        answer: "Brasilia"
     }
 };
 

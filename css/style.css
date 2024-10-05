@@ -7,10 +7,9 @@ body {
     height: 100vh;
     margin: 0;
 }
-
 #quiz-container {
     text-align: center;
-    background: white;
+    background: rgb(89, 21, 184);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -18,7 +17,7 @@ body {
 
 .green-button {
     background-color: green;
-    color: white;
+    color: #f1f0ed;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -26,7 +25,7 @@ body {
 }
 
 .category {
-    border: 1px solid #ccc;
+    border: 1px solid #a6e04a;
     padding: 10px;
     margin: 10px;
     cursor: pointer;
@@ -35,9 +34,13 @@ body {
 }
 
 .category:hover {
-    background-color: #e0e0e0;
+    background-color: #c72222;
 }
 
 .hidden {
     display: none;
+}
+#score {
+    font-size: 30px;
+    color: rgb(28, 121, 121);
 }
